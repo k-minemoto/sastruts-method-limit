@@ -10,7 +10,7 @@
 
   <groupId>net.jp.saf.sastruts</groupId>
   <artifactId>sastruts-method-limit</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <packaging>jar</packaging>
 
   <name>SAStruts Method Limit</name>
