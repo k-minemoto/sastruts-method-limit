@@ -53,7 +53,7 @@ public @interface HttpMethodLimit {
 	/**
 	 * 拡張ヘッダーの扱いの設定.
 	 *
-	 * @return デフォルトは{@link ExtensionHeaderBehavior.NOT_DEFINE}(個別設定しない)
+	 * @return デフォルトは{@link ExtensionHeaderBehavior#NOT_DEFINE}(個別設定しない)
 	 */
 	ExtensionHeaderBehavior extensionHeader() default ExtensionHeaderBehavior.NOT_DEFINE;
 }

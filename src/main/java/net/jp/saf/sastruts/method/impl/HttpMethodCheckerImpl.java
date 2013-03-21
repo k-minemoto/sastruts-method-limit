@@ -80,7 +80,7 @@ public class HttpMethodCheckerImpl implements HttpMethodChecker {
 	/**
 	 * 拡張ヘッダーの扱いを設定します.
 	 *
-	 * @param extensionHeader 拡張ヘッダーの扱い. 省略時は{@link ExtensionHeaderBehavior.NOT_USE}.
+	 * @param extensionHeader 拡張ヘッダーの扱い. 省略時は{@link ExtensionHeaderBehavior#NOT_USE}.
 	 */
 	@Binding(bindingType=BindingType.MAY)
 	public void setExtensionHeader(ExtensionHeaderBehavior extensionHeader) {
@@ -104,7 +104,7 @@ public class HttpMethodCheckerImpl implements HttpMethodChecker {
 	/**
 	 * {@link HttpMethodLimit}の、value省略時のデフォルトチェックメソッドを設定します.
 	 *
-	 * @param defaultAllows 許可するHTTPメソッド. 省略時は{@link HttpMethod.GET_POST}(GET,POSTのみ)
+	 * @param defaultAnnotationAllows 許可するHTTPメソッド. 省略時は{@link HttpMethod#GET_POST}(GET,POSTのみ)
 	 */
 	@Binding(bindingType=BindingType.MAY)
 	public void setDefaultAnnotationAllows(List<HttpMethod> defaultAnnotationAllows) {
